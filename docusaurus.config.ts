@@ -28,6 +28,13 @@ const config = {
     locales: ["en"],
   },
 
+  scripts: [
+    {
+      src: 'https://udify.app/embed.min.js',
+      async: true,
+    },
+  ],
+
   markdown: {
     mermaid: true,
   },
